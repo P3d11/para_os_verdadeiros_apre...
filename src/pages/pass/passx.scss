@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
+$font-stack: Comforter Brush, cursive; */
+
+$back-color: rgb(209, 0, 0);
+
+body {
+    //background-image: url('./assets/ok-cat.gif');
+    background-size: cover;
+}
+
+div {
+    font: 150%;    
+
+    box-shadow: 15px 0 0 0 $back-color, -5px 0 0 0 $back-color;
+    background: $back-color;
+
+    display: inline;
+
+    padding: 1% 0 !important;
+    position: relative;
+}
