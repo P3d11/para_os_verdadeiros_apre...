@@ -1,10 +1,14 @@
+$back-color: rgb(7, 7, 7);
+
 body {
-  background-color: rgb(15, 15, 15);
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-  height: 100%;
-  width: 100%;
+    background-color: $back-color;
+    margin: 0;
+  
+    height: 100vh;
+    width: 100vw;
+}
+
+#root {
+    height: 100vh;
+    width: 100vw;
 }

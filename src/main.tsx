@@ -13,14 +13,13 @@ import {
 import './index.scss'
 
 
-
 const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <App />,
 	}, 
 	{
-		path: '/1',
+		path: '/primeiro',
 		element: <P1 />,
 	},
 	{

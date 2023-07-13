@@ -1,9 +1,11 @@
-import './passx.scss'
+import '../../global.scss'
 
 function P2() {
 	//0
 	return (
-		<div className='text'>&quot;ó, vós que entrais, abandonai toda a esperança.&quot;</div>
+		<div className='content'>
+			<div className='text_marc'>&quot;g, ijo zhq waonjve, __________ lbyw j rehrmwwpm.&quot;</div>
+		</div>
 	)
 }
 

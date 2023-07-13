@@ -1,4 +1,4 @@
-//import './passx.scss'
+import '../../global.scss'
 
 function R1() {
 	return (

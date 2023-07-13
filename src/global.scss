@@ -1,0 +1,72 @@
+$back-color: rgb(7, 7, 7);
+$text-back-color: rgb(209, 0, 0);
+$font-size: 130%;
+
+div {
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    
+    .body_main {
+        //background-image: url('./assets/ok-cat.gif');
+
+        margin: auto;
+        //padding: 2rem;        
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .content {
+        margin: auto;
+    }
+
+    .text_marc {
+        font-size: $font-size;    
+    
+        box-shadow: 15px 0 0 0 $text-back-color, -5px 0 0 0 $text-back-color;
+        background: $text-back-color;
+    
+        display: inline;
+    
+        padding: 1% 0 !important;
+        position: relative;
+    }
+    
+    .text_tip {
+        margin-top: 1vh;
+        font-size: calc($font-size - 40%);    
+    
+        display: inline;
+    }
+
+    .important {
+        text-decoration: underline;
+    }
+
+    
+    .body_1 {
+        background-image: url('./assets/1.gif');
+        background-size: cover;
+    
+        height: 100vh;
+        width: 100vw;
+    
+        margin: 0 auto;
+    }
+}
+
+input {
+    font-size: calc($font-size - 30%);    
+    font-style: italic;
+    text-align: center;
+
+    height: 3vh; 
+
+    background-color: $text-back-color;
+    border: 0;
+    border-bottom: 0.2vh solid $back-color;
+}
+
+input:focus{
+    outline: none;
+}
