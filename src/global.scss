@@ -70,3 +70,12 @@ input {
 input:focus{
     outline: none;
 }
+
+.back_img {
+    position: 'absolute';
+    height: 100vh;
+    width: 100vw;
+    opacity: 75%;
+
+    //visibility: hidden;
+}
